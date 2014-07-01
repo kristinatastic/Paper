@@ -1,12 +1,12 @@
 ## Paper Navigation
-=================
+
 
 #### How many hours did it take to complete?
-============================================
+
 ~12 hours
 
+
 #### Which required and optional stories have you completed?
-============================================================
 
 * [x] Dragging the headline should reveal the menu
 * [x] If you're dragging down, releasing the headline should animate the headline to the down position
@@ -17,6 +17,5 @@
 
 
 #### Walkthrough
-================
 
 ![Alt description of image](paper.gif)
