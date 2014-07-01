@@ -119,9 +119,9 @@ NSTimer *timer;
     
     self.headlinesScrollView.center = CGPointMake(viewCenter.x, viewCenter.y + translation.y);
     [panGestureRecognizer setTranslation:CGPointZero inView:self.headlinesScrollView.superview];
-    if (viewCenter.y < 568) {
+    if (viewCenter.y < 568 && velocity.y < 0) {
         
-        self.headlinesScrollView.center = CGPointMake(viewCenter.x, viewCenter.y + (translation.y / 5));
+        self.headlinesScrollView.center = CGPointMake(viewCenter.x, viewCenter.y + (translation.y / 10));
         [panGestureRecognizer setTranslation:CGPointZero inView:self.headlinesScrollView.superview];
     }
     
